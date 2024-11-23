@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .yellow {
+            background-color: yellow;
+            padding: 20px;
+        }
+        .tomato {
+            background-color: tomato;
+            padding: 20px;
+        }
+        .red {
+            color: red;
+        }
+        .s-style {
+            width: 300px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#s-style">Information</a>
+            <a href="#video">Video</a>
+            <a href="#form">Questions</a>
+        </nav>
+    </header>
+
+    <section id="saturn">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRci9JUF7lN2mBW6l2cCCvNoJLZ1NVLLAtmBw&s" alt="HTML"
+        alt="" 
+        width="500" 
+        height="400" 
+        title="Saturn">
+        <hr />
+        <div class="s-style">
+        <p><b>Сату́рн — шестая планета по удалённости от Солнца и вторая по размерам планета в Солнечной системе после Юпитера.
+            <br />
+            Сатурн классифицируется как газовая планета-гигант. 
+            <br />
+            Сатурн назван в честь римского бога земледелия. 
+            <br />
+            Символ Сатурна — ♄.
+            <br />
+            В основном Сатурн состоит из водорода, с примесями гелия и следами воды, метана, аммиака и тяжёлых элементов.
+        </div>
+        </p>
+        </b>
+        <br />
+        <hr />
+    </section>
+
+    <section id="video">
+        <iframe 
+        width="1360" 
+        height="515" 
+        src="https://www.youtube.com/embed/AKmETs32ioA?si=TLdshx2DXGEfZ_Aq" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen
+        autoplay
+        muted
+        ></iframe>
+    </section>
+
+    <section id="form">
+    <hr />
+    <br />
+    <form>
+    <input type="text" placeholder="Это планета?"/>
+    <br />
+    <br />
+    <hr/>
+    <label for="check1">Понравилась информация?</label>
+    <input type="checkbox" name="checkbox1" id="check1" />
+    <br />
+    <label for="check2">Отправлять уведомления о новой информации?</label>
+    <input type="checkbox" name="checkbox2" id="check2">
+
+    <p>Какой у вас пол?</p>
+    <input type="radio" name="gender" id="g1" value="Мужчина">
+    <label for="g1">Мужчина</label>
+    <input type="radio" name="gender" id="g2" value="Женщина">
+    <label for="g2">Женщина</label>
+    <input type="radio" name="gender" id="g3" value="Ламинат">
+    <label for="g3">Ламинат</label>
+    <br />
+    <br />
+    <input type="password" name="pass" id="p1" placeholder="Ваш пароль">
+    <button type="submit">Отправить</button>
+    <hr />
+    </form>        
+</body>
+</html>
